@@ -16,15 +16,14 @@
             display: flex;
             gap: 10px;
 
-            a {
-                .btn-get-started {
-                    border: 2px solid #1a96de;
-                    border-radius: 10px;
-                    padding: 4px;
-                    background-color: white;
-                    font-weight: 600;
-                    color: #1a96de;
-                }
+            .btn-get-started {
+                border: 2px solid #1a96de;
+                border-radius: 10px;
+                padding: 4px;
+                background-color: white;
+                font-weight: 600;
+                line-height: 32px;
+                color: #1a96de;
             }
 
             .btn-watch-demo {
@@ -35,7 +34,7 @@
                 border-radius: 10px;
                 padding: 4px;
                 font-weight: 700;
-                line-height: 36px;
+                line-height: 32px;
             }
         }
     }
