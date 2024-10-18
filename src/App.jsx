@@ -12,7 +12,7 @@ import Login from './components/Login/Login.jsx';
 
 const NotFound = () => {
   return (
-    <div className="container mt-3 alert alert-danger" role="alert" >
+    <div className="page-not-found" role="alert" >
       404. NOT FOUND
     </div>
   )

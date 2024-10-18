@@ -1,7 +1,12 @@
 .homePageNews-container {
     background-color: #F6F6F6;
     width: 100%;
-    padding-left: 50px;
+    padding-left: 90px;
+    padding-bottom: 20px;
+
+    h1.partner-title {
+        font-size: 30px;
+    }
 
     .homePageNews-content {
         margin-top: 8px;
@@ -9,7 +14,7 @@
         .content-tag {
             background-color: white;
             border-radius: 10px;
-            box-shadow: 5px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             padding: 12px;
             width: 80%;
 

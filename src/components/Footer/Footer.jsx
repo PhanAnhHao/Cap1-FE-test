@@ -9,21 +9,21 @@ const Footer = () => {
     return (
         <div>
             <footer>
-                <div class="footer-content">
-                    <div class="company-info">
+                <div className="footer-content">
+                    <div className="company-info">
                         <img src={logo} alt="FuGo" />
                         <p>
                             Our company always tries our best to help you get closer to your
                             dream. Contact us now to get the best job.
                         </p>
-                        <div class="social-icons">
-                            <img src={facebook} alt="facebook icon" class="facebook" />
-                            <img src={twitter} alt="twitter icon" class="twitter" />
-                            <img src={instagram} alt="instagram icon" class="instagram" />
-                            <img src={youtube} alt="youtube icon" class="youtube" />
+                        <div className="social-icons">
+                            <img src={facebook} alt="facebook icon" className="facebook" />
+                            <img src={twitter} alt="twitter icon" className="twitter" />
+                            <img src={instagram} alt="instagram icon" className="instagram" />
+                            <img src={youtube} alt="youtube icon" className="youtube" />
                         </div>
                     </div>
-                    <div class="footer-links">
+                    <div className="footer-links">
                         <div>
                             <h5>Company</h5>
                             <ul>

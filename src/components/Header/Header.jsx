@@ -8,7 +8,7 @@ const Header = () => {
         <div>
             <header>
                 <nav>
-                    <div class="logo">
+                    <div className="logo">
                         <img src={logo} alt="FuGo" />
                     </div>
                     <ul>
@@ -20,9 +20,9 @@ const Header = () => {
                         <li><a href="#">Chia sẻ</a></li>
                         <li><a href="#">Quản lí CV</a></li>
                     </ul>
-                    {/* <div class="user-controls">
+                    {/* <div className="user-controls">
                         <img src={notify_icon} alt="Notification" className="notification" />
-                        <img src={user_avatar} alt="User profile" class="user-avatar" />
+                        <img src={user_avatar} alt="User profile" className="user-avatar" />
                     </div> */}
 
                     <div className="login-signup">

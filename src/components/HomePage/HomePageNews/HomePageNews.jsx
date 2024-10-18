@@ -1,4 +1,4 @@
-import tagHeader from "../../../assets/img/tagHeader.jpg";
+import tagHeader from "../../../assets/img/tagImg.jpg";
 import "./HomePageNews.scss";
 const HomePageNews = () => {
     return (
