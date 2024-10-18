@@ -5,9 +5,11 @@ import "./Signup.scss";
 
 const Signup = () => {
     return (
-        <div className="container">
+        <div className="signup-container">
             <div className="form-section">
-                <img src={logo} alt="FuGo Logo" className="logo" />
+                <a href="/">
+                    <img src={logo} alt="FuGo Logo" className="logo" />
+                </a>
                 <h2>Đăng ký tài khoản mới</h2>
                 <p>Chọn vai trò bạn muốn đăng ký</p>
                 <div className="role-buttons">

@@ -5,9 +5,11 @@ import "./Login.scss";
 
 const Login = () => {
     return (
-        <div className="container">
+        <div className="login-container">
             <div className="form-section">
-                <img src={logo} alt="FuGo Logo" className="logo" />
+                <a href="/">
+                    <img src={logo} alt="FuGo Logo" className="logo" />
+                </a>
                 <h2 className="text-3xl font-bold">Đăng nhập</h2>
                 <div className="role-buttons">
                     <button className="role-button active">Ứng viên</button>
