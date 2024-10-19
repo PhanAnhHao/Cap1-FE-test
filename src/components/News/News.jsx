@@ -5,192 +5,192 @@ import "./News.scss";
 
 const News = () => {
     return (
-        <main>
-            <section class="hero">
+        <main className="news-container">
+            <section className="hero">
                 <img
                     src={phong}
                     alt="section image"
-                    class="section__background"
+                    className="section__background"
                 />
             </section>
 
-            <section class="content">
-                <h2>TIN TỨC & SỰ KIỆN</h2>
-                <div class="news-grid">
-                    <div class="news-column">
+            <div className="news-content">
+                <h2 className="news-content-title">TIN TỨC & SỰ KIỆN</h2>
+                <div className="news-grid">
+                    <div className="news-column">
                         {/* <!-- Repeat this structure for each news item --> */}
                         <a href="/detail-news">
-                            <article class="news-item">
+                            <div className="news-item">
                                 <img
                                     src={book}
                                     alt="News image"
-                                    class="news-item__img"
+                                    className="news-item__img"
                                 />
-                                <div class="news__content">
-                                    <h3>
+                                <div className="news__content">
+                                    <h3 className="news__content-title">
                                         3 Điều Cha Mẹ Bắt Buộc Ghi Nhớ Khi Có Con Đang Học Trung Học
                                         Phổ Thông
                                     </h3>
-                                    <div class="news-meta">
-                                        <span class="date">05/01/2024</span>
-                                        <span class="views">338 views</span>
+                                    <div className="news-meta">
+                                        <span className="date">05/01/2024</span>
+                                        <span className="views">338 views</span>
                                     </div>
-                                    <p>
+                                    <p className="news__content-content">
                                         Cha mẹ luôn mong muốn con đạt được điều tốt nhất. Con càng
                                         lớn nỗi lo cha mẹ ngày một tăng, nhất là khi con đang ở độ
                                         tuổi chập chững vào đời tuổi 18. Vậy cha mẹ đã nắm được
                                         những nguyên tắc giúp con thêm phần tự tin, đóng...
                                     </p>
                                 </div>
-                            </article>
+                            </div>
                         </a>
                         <a href="/detail-news">
-                            <article class="news-item">
+                            <div className="news-item">
                                 <img
                                     src={book}
                                     alt="News image"
-                                    class="news-item__img"
+                                    className="news-item__img"
                                 />
-                                <div class="news__content">
-                                    <h3>
+                                <div className="news__content">
+                                    <h3 className="news__content-title">
                                         3 Điều Cha Mẹ Bắt Buộc Ghi Nhớ Khi Có Con Đang Học Trung Học
                                         Phổ Thông
                                     </h3>
-                                    <div class="news-meta">
-                                        <span class="date">05/01/2024</span>
-                                        <span class="views">338 views</span>
+                                    <div className="news-meta">
+                                        <span className="date">05/01/2024</span>
+                                        <span className="views">338 views</span>
                                     </div>
-                                    <p>
+                                    <p className="news__content-content">
                                         Cha mẹ luôn mong muốn con đạt được điều tốt nhất. Con càng
                                         lớn nỗi lo cha mẹ ngày một tăng, nhất là khi con đang ở độ
                                         tuổi chập chững vào đời tuổi 18. Vậy cha mẹ đã nắm được
                                         những nguyên tắc giúp con thêm phần tự tin, đóng...
                                     </p>
                                 </div>
-                            </article>
+                            </div>
                         </a>
                         <a href="/detail-news">
-                            <article class="news-item">
+                            <div className="news-item">
                                 <img
                                     src={book}
                                     alt="News image"
-                                    class="news-item__img"
+                                    className="news-item__img"
                                 />
-                                <div class="news__content">
-                                    <h3>
+                                <div className="news__content">
+                                    <h3 className="news__content-title">
                                         3 Điều Cha Mẹ Bắt Buộc Ghi Nhớ Khi Có Con Đang Học Trung Học
                                         Phổ Thông
                                     </h3>
-                                    <div class="news-meta">
-                                        <span class="date">05/01/2024</span>
-                                        <span class="views">338 views</span>
+                                    <div className="news-meta">
+                                        <span className="date">05/01/2024</span>
+                                        <span className="views">338 views</span>
                                     </div>
-                                    <p>
+                                    <p className="news__content-content">
                                         Cha mẹ luôn mong muốn con đạt được điều tốt nhất. Con càng
                                         lớn nỗi lo cha mẹ ngày một tăng, nhất là khi con đang ở độ
                                         tuổi chập chững vào đời tuổi 18. Vậy cha mẹ đã nắm được
                                         những nguyên tắc giúp con thêm phần tự tin, đóng...
                                     </p>
                                 </div>
-                            </article>
+                            </div>
                         </a>
                         <a href="/detail-news">
-                            <article class="news-item">
+                            <div className="news-item">
                                 <img
                                     src={book}
                                     alt="News image"
-                                    class="news-item__img"
+                                    className="news-item__img"
                                 />
-                                <div class="news__content">
-                                    <h3>
+                                <div className="news__content">
+                                    <h3 className="news__content-title">
                                         3 Điều Cha Mẹ Bắt Buộc Ghi Nhớ Khi Có Con Đang Học Trung Học
                                         Phổ Thông
                                     </h3>
-                                    <div class="news-meta">
-                                        <span class="date">05/01/2024</span>
-                                        <span class="views">338 views</span>
+                                    <div className="news-meta">
+                                        <span className="date">05/01/2024</span>
+                                        <span className="views">338 views</span>
                                     </div>
-                                    <p>
+                                    <p className="news__content-content">
                                         Cha mẹ luôn mong muốn con đạt được điều tốt nhất. Con càng
                                         lớn nỗi lo cha mẹ ngày một tăng, nhất là khi con đang ở độ
                                         tuổi chập chững vào đời tuổi 18. Vậy cha mẹ đã nắm được
                                         những nguyên tắc giúp con thêm phần tự tin, đóng...
                                     </p>
                                 </div>
-                            </article>
+                            </div>
                         </a>
                         <a href="/detail-news">
-                            <article class="news-item">
+                            <div className="news-item">
                                 <img
                                     src={book}
                                     alt="News image"
-                                    class="news-item__img"
+                                    className="news-item__img"
                                 />
-                                <div class="news__content">
-                                    <h3>
+                                <div className="news__content">
+                                    <h3 className="news__content-title">
                                         3 Điều Cha Mẹ Bắt Buộc Ghi Nhớ Khi Có Con Đang Học Trung Học
                                         Phổ Thông
                                     </h3>
-                                    <div class="news-meta">
-                                        <span class="date">05/01/2024</span>
-                                        <span class="views">338 views</span>
+                                    <div className="news-meta">
+                                        <span className="date">05/01/2024</span>
+                                        <span className="views">338 views</span>
                                     </div>
-                                    <p>
+                                    <p className="news__content-content">
                                         Cha mẹ luôn mong muốn con đạt được điều tốt nhất. Con càng
                                         lớn nỗi lo cha mẹ ngày một tăng, nhất là khi con đang ở độ
                                         tuổi chập chững vào đời tuổi 18. Vậy cha mẹ đã nắm được
                                         những nguyên tắc giúp con thêm phần tự tin, đóng...
                                     </p>
                                 </div>
-                            </article>
+                            </div>
                         </a>
                         {/* <!-- Repeat for other news items --> */}
                     </div>
-                    <div class="sidebar">
-                        <div class="sidebar-buttons">
-                            <div class="sidebae-buttons__primary">
+                    <div className="sidebar">
+                        <div className="sidebar-buttons">
+                            <div className="sidebae-buttons__primary">
                                 <button>Du học Đài Loan</button>
                                 <button>Du học Nhật Bản</button>
                                 <button>Du học Hàn Quốc</button>
                             </div>
-                            <div class="sidebae-buttons__secondary">
+                            <div className="sidebae-buttons__secondary">
                                 <button>Du học Đài Loan</button>
                                 <button>Du học Nhật Bản</button>
                                 <button>Du học Hàn Quốc</button>
                             </div>
-                            <div class="sidebar-content">
-                                <h3>CẨM NANG DU HỌC</h3>
+                            <div className="sidebar-content">
+                                <h3 className="sidebar-content-title">CẨM NANG DU HỌC</h3>
                                 {/* <!-- Repeat this structure for each handbook item --> */}
-                                <div class="handbook-item">
-                                    <img src={camnangduhoc} alt="Handbook image" />
+                                <div className="handbook-item">
+                                    <img src={camnangduhoc} alt="Handbook image" className="handbook-img" />
                                     <p>
                                         Workshop Du Học: Canada Và Úc - Lựa chọn Nào Có Lợi Hơn
                                         Cho Du Học Sinh Việt...
                                     </p>
                                 </div>
-                                <div class="handbook-item">
-                                    <img src={camnangduhoc} alt="Handbook image" />
+                                <div className="handbook-item">
+                                    <img src={camnangduhoc} alt="Handbook image" className="handbook-img" />
                                     <p>
                                         Workshop Du Học: Canada Và Úc - Lựa chọn Nào Có Lợi Hơn
                                         Cho Du Học Sinh Việt...
                                     </p>
                                 </div>
-                                <div class="handbook-item">
-                                    <img src={camnangduhoc} alt="Handbook image" />
+                                <div className="handbook-item">
+                                    <img src={camnangduhoc} alt="Handbook image" className="handbook-img" />
                                     <p>
                                         Workshop Du Học: Canada Và Úc - Lựa chọn Nào Có Lợi Hơn
                                         Cho Du Học Sinh Việt...
                                     </p>
                                 </div>
-                                <div class="handbook-item">
-                                    <img src={camnangduhoc} alt="Handbook image" />
+                                <div className="handbook-item">
+                                    <img src={camnangduhoc} alt="Handbook image" className="handbook-img" />
                                     <p>
                                         Workshop Du Học: Canada Và Úc - Lựa chọn Nào Có Lợi Hơn
                                         Cho Du Học Sinh Việt...
                                     </p>
                                 </div>
-                                <div class="handbook-item">
-                                    <img src={camnangduhoc} alt="Handbook image" />
+                                <div className="handbook-item">
+                                    <img src={camnangduhoc} alt="Handbook image" className="handbook-img" />
                                     <p>
                                         Workshop Du Học: Canada Và Úc - Lựa chọn Nào Có Lợi Hơn
                                         Cho Du Học Sinh Việt...
@@ -201,7 +201,7 @@ const News = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </main>
     );
 };
