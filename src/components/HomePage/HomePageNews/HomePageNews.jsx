@@ -3,7 +3,7 @@ import "./HomePageNews.scss";
 const HomePageNews = () => {
     return (
         <div className="homePageNews-container">
-            <h1 className="text-xl font-medium">
+            <h1 className="text-xl font-medium flex justify-start">
                 Tin tức xuất khẩu lao động - du học
             </h1>
             <div className="homePageNews-content grid grid-cols-3">
