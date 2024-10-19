@@ -9,6 +9,8 @@ import News from './components/News/News.jsx';
 import { Route, Routes } from 'react-router-dom';
 import Signup from './components/Signup/Signup.jsx';
 import Login from './components/Login/Login.jsx';
+import DetailNews from './components/News/DetailNews/DetailNews.jsx';
+import Search from './components/Search/Search.jsx';
 
 const NotFound = () => {
   return (
@@ -25,6 +27,8 @@ const App = () => {
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
           <Route path="news" element={<News />} />
+          <Route path="detail-news" element={<DetailNews />} />
+          <Route path="search" element={<Search />} />
         </Route>
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
